@@ -34,7 +34,7 @@ def start(update: Update, context: CallbackContext) -> None:
         fr'Olá {user.mention_markdown_v2()}\!, Bem\-vindo\(a\) a TeleDex'
     )
 
-    update.message.reply_text("Código fonte: https://github.com")
+    update.message.reply_text("Código fonte: https://github.com/LukaOliveira/PokedexOnTelegram")
     update.message.reply_text("\nPara buscar um pokemon,\ndigite /pokedex nomePokemon\n\nExemplo: /pokedex charizard")
 
 
